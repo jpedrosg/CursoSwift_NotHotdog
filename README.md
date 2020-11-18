@@ -10,3 +10,5 @@ First Machine Learning project with CoreML in swift!
 
 ## Screenshots
 
+![](https://github.com/jpedrosg/CursoSwift_NotHotdog/blob/main/screenshot1.png) ![](https://github.com/jpedrosg/CursoSwift_NotHotdog/blob/main/screenshot2.png)
+![](https://github.com/jpedrosg/CursoSwift_NotHotdog/blob/main/screenshot3.png) ![](https://github.com/jpedrosg/CursoSwift_NotHotdog/blob/main/screenshot4.png)
