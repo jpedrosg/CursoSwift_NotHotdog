@@ -85,10 +85,10 @@
     <resources>
         <image name="camera.viewfinder" catalog="system" width="128" height="115"/>
         <namedColor name="Red">
-            <color red="0.91911399360000001" green="0.28327423330000001" blue="0.3389072716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.91900002956390381" green="0.28299999237060547" blue="0.33899998664855957" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Yellow">
-            <color red="0.97160643339999997" green="0.88313275579999995" blue="0.56918287280000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.97200000286102295" green="0.88300001621246338" blue="0.5690000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

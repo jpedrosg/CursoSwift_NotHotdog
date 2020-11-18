@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -13,10 +13,24 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hotDog" highlightedImage="hotDog" translatesAutoresizingMaskIntoConstraints="NO" id="zDN-zr-TX5">
+                                <rect key="frame" x="50" y="174" width="220" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zDN-zr-TX5" secondAttribute="height" multiplier="1:1" id="dg3-Jm-QOz"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="Yellow"/>
+                        <constraints>
+                            <constraint firstItem="zDN-zr-TX5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Hzq-Qo-aQw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zDN-zr-TX5" secondAttribute="trailing" constant="50" id="UYy-S5-6go"/>
+                            <constraint firstItem="zDN-zr-TX5" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="f6m-1P-VOz"/>
+                            <constraint firstItem="zDN-zr-TX5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="xzd-1F-Wga"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -25,8 +39,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="hotDog" width="626" height="626"/>
         <namedColor name="Yellow">
-            <color red="0.97647058819999999" green="0.81176470590000005" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.97200000286102295" green="0.88300001621246338" blue="0.5690000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
